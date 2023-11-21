@@ -1,0 +1,352 @@
+ * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+:root {
+    --boss: rgb(160, 160, 160);
+    --colors: rgb(210, 198, 198);
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.block {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+.block__card {
+}
+.main__block{
+    display: flex;
+    justify-content: center;
+    background-image: ulr(https: //png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-blue-geometric-business-minimalistic-business-card-background-image_237858.jpg);
+}
+.block__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.block__text {
+    color: #fff;
+}
+
+.block__photo {
+    padding-left: 20px;
+}
+
+.card__number {
+    padding-left: 20px;
+    color: #fff;
+}
+
+.card__container {}
+
+.card__cv {
+    padding-left: 15px;
+    color: #fff;
+}
+
+.card__data {
+    padding-left:300px;
+    color: #fff;
+}
+
+.name_surname {
+    padding-left: 15px;
+    color: #fff;
+}
+.input__number-card{
+    border: 1px solid #000;
+    border-radius: 10px;
+    top: 200px;
+    right: 270px;
+    padding-top: 1px;
+}
+.Text{
+    top: 200px;
+    right:300px;
+}
+.block:hover{
+    box-shadow: 0px 0px 10px #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.header {
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bank__logo{
+    animation:logo 5s linear infinite;
+    width: 50px;
+    height: 50px;
+    bottom: 10px;
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+.form{
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    max-height: 400px;
+}
+.Text {
+    color: #fff;
+}
+
+.input__number-card {
+}
+
+.left__part {
+
+}
+
+.left__menu__li {
+    display: flex;
+    font-family: 'Kenia';
+    padding-left: 50px;
+    font-size: 35px;
+    justify-content: space-around;
+}
+
+.left__li {
+
+}
+
+.right__part {
+    font-family: 'Kenia';
+    font-size: 35px;
+    padding-right: 50px;
+}
+
+.right__menu__li {
+    display: flex;
+}
+
+.right__li__second{
+    padding-left: 150px;
+}
+.left__li__second {
+    padding-left: 150px;
+}
+
+.block__photo{
+
+}
+.photo__logo{
+    bottom: 10px;
+    animation: dude 3s linear infinite;
+    
+}
+@keyframes dude{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+.generate{
+    width: 125px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+.form__box{
+}
+.Text:nth-child(3){
+    right: 280px;
+}
+.input__card{
+    top: 200px;
+    right: 250px;
+}
+.Text:nth-child(5) {
+
+    right: 27px;
+}
+.check{
+    display: flex;
+    padding: 20px;
+}
+.check__input{
+    margin: 10px;
+}
+.check__label{
+    color: #fff;
+}
+.about{
+    color: aqua;
+    cursor: pointer;
+}
+.check__modal {
+    opacity: 1;
+    background-color: #000;
+    color: #fff;
+    user-select: none;
+    transition: 0.7s;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.check__modal.active{
+    opacity: 0;
+    bottom: 230px;
+
+}
+.TEXT {
+}
+.name{
+    color: #fff;
+}
+.text__input{
+    color: #fff;
+}
+/* Ваші існуючі стилі */
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.modal {
+    display: none;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #555;
+}
+
+#modalBtn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+#modalBtn:hover {
+    background-color: #0056b3;
+}
+
+.hidden-text {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible-text {
+    opacity: 0;
+}
